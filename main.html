@@ -8,6 +8,42 @@
 
 <body>
 	<!-- the entire body must be written by student -->
+	<form action="submit_handler.php" method="post">
+		<label for="name">Name:</label>
+		<input type="text" required/>
+    <br>
+	<br>
+		<label for="email">Email:</label>
+		<input type="email" required/>
+	<br>
+	<br>
+		<label>Gender:</label>
+		<input type="radio" value="Male" name="Gender" required/>Male
+		<input type="radio" value="Female" name="Gender" required/>Female
+	<br>
+	<br>
+		<label for="laptop">Laptop Brands:</label>
+		<select>
+			<option>Apple</option>
+			<option>Asus</option>
+			<option>HP</option>
+		</select>
+	<br>
+	<br>
+		<label for="age">Age:</label>
+		<input type="number" required/>
+	<br>
+    <br>
+		<label for="password">Password:</label>
+		<input type="password" required/>
+    <br>
+	<br>
+		<label for="portfolio">Portfolio URL:</label>
+		<input type="url" />
+	<br>
+	<br>
+		<button type="submit" id="btn">Submit</button>
+	</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
